@@ -37,9 +37,9 @@ class Login extends Component {
                 <h1>CQ</h1>
                 <h2>Login</h2>
                 <div>
-                    <input type="text" name="Username" id="user" value={this.state.user} onChange={this.handleUser}/>
-                    <input type="text" name="Password" id="pass" value={this.state.pass} onChange={this.handlePass}/>
-                    <button onClick={this.handleSubmit}/>
+                    <input type="text" name="Username" id="user" placeholder="name" value={this.state.user} onChange={this.handleUser}/>
+                    <input type="text" name="Password" id="pass" placeholder="phone number" value={this.state.pass} onChange={this.handlePass}/>
+                    <button onClick={this.handleSubmit}> Create New User</button>
                 </div>
             </header>
         )
